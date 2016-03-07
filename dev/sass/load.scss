@@ -1,6 +1,6 @@
 @import 'compass'/* ,'compass/reset' */;
 @import 'components/htmlSize';
-body{background:#fff;display: flex}
+body{background:#fff;display: flex;float: left;}
 p{
 	background:white;
 	transform:translate(0,0,0);
