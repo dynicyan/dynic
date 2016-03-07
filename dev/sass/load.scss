@@ -1,0 +1,12 @@
+@import 'compass'/* ,'compass/reset' */;
+@import 'components/htmlSize';
+body{background:#fff;display: flex}
+p{
+	background:white;
+	transform:translate(0,0,0);
+	animation: 22 linear;
+}
+@keyframes 22{
+	from{opacity: 0}
+	to{opacity: 1}
+}

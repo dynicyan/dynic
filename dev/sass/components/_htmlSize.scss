@@ -1,0 +1,11 @@
+// set responsive
+// @for $mediaIndex from 1 to length($mediaArray) + 1 {
+//   $media: nth($mediaArray, $mediaIndex);
+//   $htmlFz: nth($htmSizeArray, $mediaIndex);
+//   @media #{$media}
+//   {
+//     html {
+//       font-size: $htmlFz;
+//     }
+//   }
+// }

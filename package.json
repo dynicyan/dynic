@@ -1,0 +1,24 @@
+{
+  "name": "pic",
+  "version": "1.0.0",
+  "description": "upload picture",
+  "author": "dynicyan@qq.com",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.4",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1",
+    "time-grunt": "^1.3.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.3.1",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-newer": "^1.1.1",
+    "grunt-postcss": "^0.7.1",
+    "jit-grunt": "^0.9.1",
+    "time-grunt": "^1.3.0"
+  }
+}

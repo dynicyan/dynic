@@ -1,0 +1,44 @@
+<!DOCTYPE html><!--[if lt IE 6]><html class="ie6"><![endif]-->
+<!--[if IE 7]><html class="ie7"><![endif]-->
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if gte IE 9]><html class="ie9"><![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>图片上传</title>
+  <link rel="stylesheet" href="css/load.css">
+</head>
+<body>
+  <div class="wrapper">
+    <ul class="clearfix"> 
+      <p>1</p>
+      <p>2 is an admin</p>
+      <p>3</p>
+      <p>4</p>
+      <p>5</p>
+      <p>6 is an mylover</p>
+      <p>7</p>
+      <p>8</p>
+      <p>9</p>
+    </ul>
+  </div>
+  <script src="js/uploadPreview.js"></script>
+  <script src="js/jquery_1_8_3.min.js"></script>
+  <script>
+    //window.onload = function(){
+    	//new uploadPreview({ UpBtn: "up_img", DivShow: "imgdiv", //ImgShow: "imgshow" });
+    //}
+    $('.up_img').bind('click',function(){
+    	//alert($('.up_img').length);
+    	//var p = $(this).parent('.imgcon');
+    	for(var i = 0;i<3;i++){
+    	 var p = $(this).parent('.imgcon');
+    		new uploadPreview({ 
+    			UpBtn: $('.up_img').eq(i).attr('class'), 
+    			DivShow: p.find(".imgdiv").attr('class'), 
+    			ImgShow: p.find(".imgshow").attr('class')
+    		});
+    	}
+    })
+  </script>
+</body></html>
